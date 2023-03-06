@@ -119,5 +119,36 @@ print(light)
 
 # Print out BMIs of all baseball players whose BMI is below 21
 print(bmi[light])
-
 """
+"""
+# height_in and weight_lb are available as a regular lists
+
+# Import numpy
+import numpy as np
+
+# Store weight and height lists as numpy arrays
+np_weight_lb = np.array(weight_lb)
+np_height_in = np.array(height_in)
+
+# Print out the weight at index 50
+print(np_weight_lb[50])
+
+# Print out sub-array of np_height_in: index 100 up to and including index 110
+print(np_height_in[100:111])
+"""
+# Create baseball, a list of lists
+baseball = [[180, 78.4],
+            [215, 102.7],
+            [210, 98.5],
+            [188, 75.2]]
+
+# Import numpy
+import numpy as np
+
+# Create a 2D numpy array from baseball: np_baseball
+
+
+# Print out the type of np_baseball
+
+
+# Print out the shape of np_baseball
